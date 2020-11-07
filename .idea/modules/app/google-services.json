@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "320776613943",
+    "firebase_url": "https://cutiehacksamcodes.firebaseio.com",
+    "project_id": "cutiehacksamcodes",
+    "storage_bucket": "cutiehacksamcodes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320776613943:android:9bc8d65df0762700cfcfb2",
+        "android_client_info": {
+          "package_name": "project.CutieHacks.Activity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320776613943-qpdk9aek3vptlclgoic7bfl8jkkc1dpq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "project.CutieHacks.Activity",
+            "certificate_hash": "6dbe2eb48cd0151f78ff52b9032f74b83e5f3c7d"
+          }
+        },
+        {
+          "client_id": "320776613943-grlk8g5gfl7fskmmgfohodm7tumdvtps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtSTdx02_mDoL3uSwt9h5Q7GxUUWHrWSc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320776613943-grlk8g5gfl7fskmmgfohodm7tumdvtps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
