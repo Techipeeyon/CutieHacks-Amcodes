@@ -1,4 +1,4 @@
-# CutieHacks-Amcoders - V
+# StudPro
 ## Problem Statement
 <p> An Application which helps students to study productively</p>
 
@@ -18,6 +18,8 @@
   <p> Students with distracted mind can't focus with their studies. So, we added a feature like whenever users start their work with the timer all other mobile notifications will turn off except calls.</p>
   
   <p> by</p>
+  <p> Amcoders - V </p>
+  
   <p> V M Pranavan</p>
   <p> Maunika Shekar </p>
   <p> Devareddy Sashank Sai </p>
