@@ -17,15 +17,9 @@
 
   <p> Students with distracted mind can't focus with their studies. So, we added a feature like whenever users start their work with the timer all other mobile notifications will turn off except calls.
   
-  
-    
-  
- <!-- Images -->
-
-![Login Page](login.png "login page")
-![Signup Page](signup.png "signup page")
-![Reminder](Reminder.png "Reminder page")
-![music](music.png "music page")
-![notes](notes.png "notes page")
-![todo](todo.png "todo page")
+                                                                                                                                                <p> by</p>
+                                                                                                                                                <p> V M Pranavan</p>
+                                                                                                                                                <p> Maunika Shekar </p>
+                                                                                                                                                <p> Devareddy Sashank Sai </p>
+                                                                                                                                                <p> G Mageshwari </p>
 
