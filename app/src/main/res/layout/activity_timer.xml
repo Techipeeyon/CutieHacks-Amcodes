@@ -8,6 +8,28 @@
     android:background="@drawable/whitebg"
     tools:context=".Signup">
 
+    <ImageView
+        android:id="@+id/content_view_back_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/back_arrow_icon"
+        android:padding="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/null"
+        android:layout_below="@+id/bgHeader"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-69dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:layout_marginBottom="72dp"
+        android:src="@drawable/timer" />
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/bgHeader"
         android:layout_width="match_parent"
@@ -18,10 +40,16 @@
         android:id="@+id/tvSignUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
+        android:layout_above="@+id/null"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginBottom="58dp"
+        android:layout_toEndOf="@+id/content_view_back_icon"
+        android:layout_toRightOf="@+id/content_view_back_icon"
         android:elevation="10dp"
-        android:text="SIGNUP"
+        android:text="Reminder"
         android:textColor="#000000"
         android:textSize="25sp"
         android:textStyle="bold"
@@ -57,7 +85,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:text="Email"
+                        android:text="Title"
                         android:textColor="#000000"
                         android:textSize="14sp"
                         android:textStyle="bold" />
@@ -67,7 +95,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="10dp"
-                        android:inputType="textEmailAddress" />
+                        android:inputType="text" />
 
 
                     <TextView
@@ -75,7 +103,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:text="Password"
+                        android:text="Start Date"
                         android:textColor="#000000"
                         android:textSize="14sp"
                         android:textStyle="bold" />
@@ -86,13 +114,13 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="10dp"
-                        android:inputType="textPassword" />
+                        android:inputType="date" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:text="Confirm Password"
+                        android:text="Start time"
                         android:textColor="#000000"
                         android:textSize="14sp"
                         android:textStyle="bold" />
@@ -103,34 +131,32 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="10dp"
-                        android:inputType="textPassword" />
+                        android:inputType="time" />
+
+
+
+
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
-
-            <RelativeLayout
-                android:id="@+id/r1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/cv"
-                android:layout_alignLeft="@+id/cv"
-                android:layout_alignRight="@+id/cv"
-                android:layout_marginLeft="35dp"
-                android:layout_marginTop="-40dp"
-                android:layout_marginRight="35dp"
-                android:elevation="10dp">
-
-
-
-                <Button
-                    android:id="@+id/signupButton"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/bg_ui"
-                    android:text="SIGN UP"
-                    android:textAllCaps="true"
-                    android:textColor="#000000" />
-            </RelativeLayout>
-
         </RelativeLayout>
+
     </ScrollView>
+    <Button
+        android:id="@+id/content_add_photos"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="117dp"
+        android:layout_marginRight="117dp"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/bg_ui"
+        android:text="Set Reminder"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        tools:ignore="ExtraText,NotSibling" />
+
 </RelativeLayout>
+
