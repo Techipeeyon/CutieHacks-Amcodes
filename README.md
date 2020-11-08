@@ -15,7 +15,7 @@
   
 ## Pros and Cons of the proposed model
 
-  <p> Students with distracted mind can't focus with their studies. So, we added a feature like whenever users start their work with the timer all other mobile notifications will turn off except calls.
+  <p> Students with distracted mind can't focus with their studies. So, we added a feature like whenever users start their work with the timer all other mobile notifications will turn off except calls.</p>
   
                                                                                                                                                 <p> by</p>
                                                                                                                                                 <p> V M Pranavan</p>
