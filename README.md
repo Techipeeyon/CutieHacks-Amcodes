@@ -22,10 +22,10 @@
   
  <!-- Images -->
 
-![Exception Handling Flow](login.png "login page")
-![Exception Handling Flow](login.png "login page")
-![Exception Handling Flow](login.png "login page")
-![Exception Handling Flow](login.png "login page")
-![Exception Handling Flow](login.png "login page")
-![Exception Handling Flow](login.png "login page")
-![Exception Handling Flow](login.png "login page")
+![Login Page](login.png "login page")
+![Signup Page](signup.png "signup page")
+![Reminder](Reminder.png "Reminder page")
+![music](music.png "music page")
+![notes](notes.png "notes page")
+![todo](todo.png "todo page")
+
